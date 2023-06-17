@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="349.0" prefWidth="588.0" style="-fx-background-color: #283c47;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CommunicationCntrlr">
+   <children>
+      <Label layoutX="14.0" layoutY="29.0" text="Informations :" textFill="#cd9b9b">
+         <font>
+            <Font name="Bookman Old Style" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="83.0" text="ID :" textFill="#2f1717">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="125.0" text="Libelle :" textFill="#2f1717">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="163.0" text="Fournisseurs :" textFill="#2f1717">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="204.0" text="Quantité :" textFill="#2f1717">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="148.0" layoutY="85.0" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #576973;" />
+      <TextField fx:id="libelle" layoutX="148.0" layoutY="123.0" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #576973;" />
+      <TextField fx:id="fournisseurs" layoutX="150.0" layoutY="162.0" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #576973;" />
+      <TextField fx:id="qte" layoutX="148.0" layoutY="199.0" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #576973;" />
+      <Button fx:id="ajouter" layoutX="81.0" layoutY="262.0" mnemonicParsing="false" onAction="#AjouterA" prefHeight="29.0" prefWidth="105.0" style="-fx-background-color: #38656e;" text="Ajouter">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="358.0" layoutY="33.0" text="Liste :" textFill="#2f1717">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="73.0" text="Nom" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="73.0" text="ID" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Line endX="22.0" endY="-60.0" layoutX="430.0" layoutY="140.0" startX="22.0" startY="96.0" stroke="#040b14" />
+      <Line endX="-79.0" endY="96.0" layoutX="423.0" layoutY="1.0" startX="136.0" startY="96.0" stroke="#040b14" />
+      <Line endX="22.0" endY="-106.0" layoutX="303.0" layoutY="148.0" startX="22.0" startY="134.0" stroke="#040b14" />
+      <Line endX="22.0" endY="-106.0" layoutX="314.0" layoutY="148.0" startX="22.0" startY="134.0" stroke="#040b14" />
+      <Label fx:id="nom1" layoutX="370.0" layoutY="105.0" text="RTX3090" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nom2" layoutX="371.0" layoutY="132.0" text="DeathAdder" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nom3" layoutX="370.0" layoutY="158.0" text="G915L" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nom4" layoutX="370.0" layoutY="183.0" text="ΩChair" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nom5" layoutX="371.0" layoutY="211.0" text="HyperX" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="id1" layoutX="482.0" layoutY="105.0" text="1001" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="id2" layoutX="482.0" layoutY="132.0" text="1002" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="id3" layoutX="482.0" layoutY="158.0" text="1003" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="id4" layoutX="482.0" layoutY="183.0" text="1004" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="id5" layoutX="482.0" layoutY="207.0" text="1005" textFill="#ae9366">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="chat" layoutX="360.0" layoutY="258.0" prefHeight="29.0" prefWidth="92.0" style="-fx-background-color: #576973;" />
+      <Button id="confirmer" fx:id="confirmer" layoutX="363.0" layoutY="306.0" mnemonicParsing="false" onAction="#confirmerA" prefHeight="29.0" prefWidth="92.0" style="-fx-background-color: #38656e;" text="Confirmer">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
